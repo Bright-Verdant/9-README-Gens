@@ -1,8 +1,8 @@
 
-# s
+# 9 README Gens
 
 ## Description
-s
+Is a command line based application that will generate a README based on prompts answered after running it through Nodep\
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,16 +13,16 @@ s
 - [Questions](#questions)
 
 ## Installation
-s
+npm install inquirer
 
 ## Usage
-s
+run in the command line through node
 
 ## Contributing
-s
+i made this
 
 ## Tests
-s
+no testing data
 
 
 ## License
@@ -32,6 +32,6 @@ This project is licensed under the [MIT](https://opensource.org/licenses/MIT) li
     
 
 ## Questions
-If you have any questions, please feel free to contact me:
-- GitHub: https://github.com/s
-- Email: s
+If you have any questions, please contact me:
+- GitHub: https://github.com/Bright-Verdant
+- Email: @email.com
