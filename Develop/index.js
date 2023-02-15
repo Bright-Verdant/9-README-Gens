@@ -1,6 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+// Calls License functions
+const { renderLicenseBadge, renderLicenseLink, renderLicenseSection } = require('./utils/generateMarkdown');
 
 
 // Questions for user input
@@ -99,3 +101,6 @@ If you have any questions, please feel free to contact me:
       console.log('README.md file has been created successfully!');
     });
   });
+
+
+  
