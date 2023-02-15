@@ -83,7 +83,7 @@ ${answers.tests}
 ${renderLicenseSection(answers.license)}
 
 ## Questions
-If you have any questions, please contact me:
+If you have any questions, contact me:
 - GitHub: https://github.com/${answers.github}
 - Email: ${answers.email}
 `;
