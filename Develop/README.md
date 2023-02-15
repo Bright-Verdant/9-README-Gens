@@ -1,8 +1,8 @@
 
-# r
+# s
 
 ## Description
-r
+s
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,21 +13,25 @@ r
 - [Questions](#questions)
 
 ## Installation
-r
+s
 
 ## Usage
-r
+s
 
 ## Contributing
-r
+s
 
 ## Tests
-r
+s
+
 
 ## License
-This project is licensed under the GPL license.
+
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+    
 
 ## Questions
 If you have any questions, please feel free to contact me:
-- GitHub: https://github.com/r
-- Email: r
+- GitHub: https://github.com/s
+- Email: s

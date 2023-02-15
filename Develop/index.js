@@ -1,9 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-
-// Calls License functions
-const { renderLicenseBadge, renderLicenseLink, renderLicenseSection } = require('./utils/generateMarkdown');
-
+// call module
+const { renderLicenseSection } = require('./utils/generateMarkdown');
 
 // Questions for user input
 inquirer
@@ -55,8 +53,6 @@ inquirer
       message: 'What is your email address?',
     },
   ])
-
-
   .then((answers) => {
     const readmeContent = `
 # ${answers.title}
@@ -84,23 +80,17 @@ ${answers.contributing}
 ## Tests
 ${answers.tests}
 
-## License
-This project is licensed under the ${answers.license} license.
+${renderLicenseSection(answers.license)}
 
 ## Questions
-If you have any questions, please feel free to contact me:
+If you have any questions, please contact me:
 - GitHub: https://github.com/${answers.github}
 - Email: ${answers.email}
 `;
 
-
-//  Create a function to write README file
-
+    //  Create a function to write README file
     fs.writeFile('./README.md', readmeContent, (err) => {
       if (err) throw err;
       console.log('README.md file has been created successfully!');
     });
   });
-
-
-  
